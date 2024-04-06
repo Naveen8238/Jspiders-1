@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(212, 114, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.main{
+   height: 40%;
+   width: 50%;
+   background-color: rgb(122, 18, 18,0.6);
+   color: whitesmoke;
+}
+#id{
+    padding: 10px;
+}
+input[type=text],input[type=email],input[type=password],input[type=tel],input[type=number],.lan{
+    width: 150px;
+    height: 20px;
+}
+input[type=text]{
+    transform: translateX(15px);
+}
+input[type=email]{
+    transform: translateX(22px);
+}
+input[type=password]{
+    transform: translateX(29px);
+}
+input[type=tel]{
+    transform: translateX(18px);
+}
+.lan{
+    transform: translateX(3px);
+}
+input[type=number]{
+    transform: translateZ(10px);
+}
+.text{
+    transform: translateX(16px);
+}
+#submitbtn{
+    height: 30px;
+    width: 225px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: brown;
+}
+

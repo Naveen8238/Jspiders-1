@@ -1,0 +1,9 @@
+.Hello{
+    width: 500px;
+    height:500px;
+    font-size: 20px;
+}
+.Hello > img{
+    width: 50%;
+    height: 50%;
+}

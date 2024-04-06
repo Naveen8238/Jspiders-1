@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.img-1{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid red;
+}
+.img-2,.img-3{
+    width: 100px;
+    height: 200px;
+}
+.top{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.left{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform-origin: left;
+}
+.right{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform-origin: right;
+}
+.container:hover .left{
+    transform:perspective(20px) translateY(35px);
+    transform: rotateY(135deg);
+}
+.container:hover .right{
+    transform: perspective(20px) translateY(35px);
+    transform: rotateY(135deg);
+}
+.ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left:20%;
+    visibility: hidden;
+}
+.ball-1{
+    background: yellow;
+}
+.ball-2{
+    background:red;
+}
+.ball-3{
+    background: blue;
+}
+.ball-4{
+    background:rgb(97, 64, 52);
+}
+.ball-5{
+    background: rgb(172, 110, 110);
+}
+.ball-6{
+    background: rgb(128, 128, 128);
+}
+.ball-7{
+    background: rgb(252, 149, 16);
+}
+.ball-8{
+    background: rgb(48, 10, 221);
+}
+.ball-9{
+    background: rgb(122, 54, 54);
+}
+.ball-10{
+    background: rgb(114, 183, 240);
+}
+.container:hover .ball-1{
+    animation: flowers 3s ease 0s 1 normal;
+}
+.container:hover .ball-2{
+    animation: flowers 3s ease 3s 1 normal;
+}
+.container:hover .ball-3{
+    animation:flowers 3s ease 6s 1 normal;
+}
+.container:hover .ball-4{
+    animation: flowers 3s ease 9s 1 normal;
+}
+.container:hover .ball-5{
+    animation: flowers 3s ease 12s 1 normal;
+}
+.container:hover .ball-6{
+    animation: flowers 3s ease 15s 1 normal;
+}
+.container:hover .ball-7{
+    animation: flowers 3s ease 18s 1 normal;
+}
+.container:hover .ball-8{
+    animation: flowers 3s ease 21s 1 normal;
+}
+.container:hover .ball-9{
+    animation: flowers 3s ease 24s 1 normal;
+}
+.container:hover .ball-10{
+    animation: flowers 3s ease 27s 1 normal;
+}
+.container:hover .ball{
+    visibility: visible;
+}
+@keyframes flowers {
+    0%,100%{
+        transform:translateY(75px)
+    }
+    25%{
+        transform: translateY(150px);
+    }
+    50%{
+        transform: translateY(225px);
+    }
+    75%{
+        transform: translateY(300px);
+    }
+}

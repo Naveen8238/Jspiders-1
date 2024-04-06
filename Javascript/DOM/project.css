@@ -1,0 +1,10 @@
+button{
+    width: 40px;
+    height: 30px;
+    background-color: yellowgreen;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}

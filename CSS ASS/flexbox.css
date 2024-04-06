@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+}
+.container{
+    border: 5px solid red;
+}
+.box{
+    padding:30px;
+    text-align: center;
+    color:#f3f3f3;
+    width: 50px;
+    height: 20px;
+}
+.box-1{
+    background: green;
+}
+.box-2{
+    background: yellow;
+}
+.box-3{
+    background: rgb(255, 0, 128);
+}
+.box-4{
+    background: pink;
+}
+.box-5{
+    background-color: brown;
+}
+.generic{
+    background: blue;
+}

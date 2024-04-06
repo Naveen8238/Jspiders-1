@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./test3.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form class="main">
+          <fieldset id="id">
+            <label for="name">Name:</label>
+            <input type="text" name="name"/><br />
+            <label for="email">email</label>
+            <input type="email" name="email"/><br />
+            <label for="pass">Pass</label>
+            <input type="password" name="pass"></br>
+            <label for="phone">phone</label>
+            <input type="tel" name="phone"><br>
+            <label for="gender">gender</label>
+            <label for="gender">male</label>
+            <input type="radio" name="gender">
+            <label for="gender">female</label>
+            <input type="radio" name="gender">
+            <label for="gender">other</label>
+            <input type="radio" name="gender"></br>
+            <label for="lan">language</label>
+            <select id="lan">
+              <option>SELECT LANGUAGE</option>
+              <option>TELUGU</option>
+              <option>HINDI</option>
+              <option>ENGLISH</option>
+            </select><br>
+            <label for="zip">ZipCode</label>
+            <input type="number" name="zip" id="zip"><br>
+            <label for="add">About</label>
+            <textarea rows="4" cols="18" placeholder="write about yourself" class="text"></textarea><br>
+            <button type="submit" id="submitbtn">Register</button>
+          </fieldset>
+        </form>
+    </div>
+  </body>
+</html>

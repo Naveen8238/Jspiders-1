@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+img,.oranged,.blue,.green,.brown{
+    width: 100px;
+    height: 100px;
+}
+img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.oranged{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: rgb(202, 105, 70);
+    transition: all 2s ease-out 4s;
+}
+.blue{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: rgb(106, 106, 214);
+    transition: all 2s ease-out 3s; 
+}
+.green{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: greenyellow;
+    transition: all 2s linear 2s;
+}
+.brown{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: rgb(73, 11, 11);
+    transition: all 2s ease-out 1s;
+}
+ .container:hover .brown{
+    transform:translateX(200px);
+}
+.container:hover .green{
+    transform: translateY(200px);
+}
+.container:hover .blue{
+    transform: translateX(-2000px);
+}
+.container:hover.oranged{
+    transform: translateY(-200px); 
+}
+/* @keyframes move {
+    0%{
+        transform: translateX(100px);
+    }
+    25%{
+        transform: translateX(200px);
+    }
+    50%{
+        transform:translateX(300px);
+    }
+    100%{
+        transform:translateX(400px);
+    }   
+}
+.brown{
+    animation: move 100s linear 1 normal;
+}
+@keyframes green-1 {
+    0%{
+        transform: translateY(100px);
+    }
+    25%{
+        transform: translateY(200px);
+    }
+    50%{
+        transform:translateY(300px);
+    }
+    100%{
+        transform:translateY(400px);
+    }   
+}
+.green{
+    animation: green-1 100s linear 1 normal 5s;
+}
+@keyframes blue-1 {
+    0%{
+        transform: translateX(-100px);
+    }
+    25%{
+        transform: translateX(-200px);
+    }
+    50%{
+        transform:translateX(-300px);
+    }
+    100%{
+        transform:translateX(-400px);
+    }   
+}
+.blue{
+    animation: blue-1 100s linear 1 normal 10s;
+}
+@keyframes brown-1 {
+    0%{
+        transform: translateY(-100px);
+    }
+    25%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform:translateY(-300px);
+    }
+    100%{
+        transform:translateY(-400px);
+    }   
+}
+.oranged{
+    animation: brown-1 100s linear 1s normal 15s;
+} */

@@ -1,0 +1,12 @@
+body{
+    font-size: 20px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(129, 211, 200);
+}
+#symbol{
+    width: 60px;
+    background-color: rgba(226, 122, 192, 0.705);
+}

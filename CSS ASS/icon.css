@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    height: 100px;
+    width: 100vw;
+    background: blue;
+    color: white;
+}
+#img-1{
+    height: 60px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    position:relative;
+    bottom: 20px;
+    right: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul>li:hover{
+    background-color: yellow;
+    text-decoration: underline;
+    color:brown;
+    border: 1px solid red;
+    border-radius: 2px;
+}
+.img{
+    width: 200px;
+    height: 100px;
+    background: rgb(108, 106, 197);
+}
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+}
+#img-6{
+    width:calc(100vw - 200px);
+    height: 100px;
+    background: yellowgreen;
+    background-size: cover;
+}
+.para-1{
+    background-color: yellow;
+}
+.para-2{
+    background-color: orange;
+}
+.para-3{
+    background-color: blueviolet;
+}
+.para-4{
+    background-color: brown;
+}
+.contact{
+    color: black;
+    width: 1150px;
+    height: 100px;
+    background-color: grey;
+}
+
+#submitbtn{
+    width: 100px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 10px;
+    transform: translateX(550px);
+}
+footer{
+    width: 1350px;
+    height: 130px;
+    color: beige;
+    background-color: rgb(139, 90, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+}
+#roc{
+    font: Normal small-caps bolder 20px/10px 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #e22b71;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 600px 600px;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: 
+    "a a a"
+    "b c c"
+    "b d e"
+    "b f g"
+    "b i i"
+    "j j j"
+    ;
+}
+.nav-container{
+    grid-area: a;
+}
+.aside-container{
+    grid-area: b;
+}
+.img-6{
+    grid-area: c;
+}
+.para-1{
+    grid-area: d;
+}
+.para-2{
+    grid-area: e;
+}
+.para-3{
+    grid-area: f;
+}
+.para-4{
+    grid-area: g;
+}
+.contact{
+    grid-area: i;
+}
+footer{
+    grid-area: j;
+}

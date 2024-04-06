@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.one ,.two{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+.one{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: all 20s linear;
+}
+.two{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transition: all 20s linear;
+}
+.one:hover{
+    transform: perspective(20px) translate(-200px,-200px);
+}
+.two:hover{
+    transform: perspective(20px) translate(200px,200px);
+}

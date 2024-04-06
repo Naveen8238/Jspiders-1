@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    top:0;
+    left:30%;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.ball-1{
+    background: blue;
+    animation: down 10s linear 1s infinite alternate-reverse;
+}
+.ball-2{
+    background: yellow;
+    animation: down 10s linear 2s infinite alternate-reverse;
+}
+.ball-3{
+    background: rgb(235, 25, 25);
+    animation: down 10s linear 3s 1;
+}
+.ball-4{
+    background:orchid;
+    
+    animation: down 10s linear 4s 1;
+}
+.ball-5{
+    background: brown;
+    animation: down 10s linear 5s 1;
+}
+@keyframes down {
+    0%,100%{
+        transform: translateY(100px);
+    }
+    25%{
+        transform:translateY(200px);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    75%{
+        transform: translateY(400px);
+    }
+}

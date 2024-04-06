@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    color: white;
+    background-color: rgb(86, 17, 150);
+    height: 100px;
+    width: 100vw;
+}
+.main-1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-around;
+    padding-right: 25px;
+    font-size: 20px;
+}
+#loginbtn{
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 25px;
+    right:15px;
+}
+#heading{
+    font-weight: bolder;
+    font-size: 30px;
+    transform: translate(45px,40px);
+}
+.bottom{
+    color: black;
+    font-weight: bolder;
+    background: #b6afaf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: calc(100vh - 100px);
+}
+.main-2{
+    width: 50%;
+    height: 100%;
+    margin:0px;
+}
+#image{
+    width: 50%;
+    height:87%;
+    position: absolute;
+}
+.main-3{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#text{
+    font-weight: bolder;
+    font-size: 50px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+#signbtn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: greenyellow;
+}

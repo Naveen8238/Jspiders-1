@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(45deg,yellow,blue);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>h1{
+    color: blue;
+    padding-left: 20px;
+}
+header>.nav-link>a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    margin: 20px;
+    background: rgba(2, 17, 13, 0.61);
+    border: none;
+}
+header>.nav-link>a:hover{
+    border: 1px solid black;
+    background: goldenrod;  
+}
+@media (min-width:0px) and (max-width:800px){
+    header{
+        flex-direction: column;
+        height: 100px;
+    }
+    header>.nav-link{
+        margin-bottom:20px;
+    }
+    header>.nav-link>a{
+        margin: 10px;
+    }
+}
+.landing{
+    height: 90vh;
+    width: 100%;
+    background: url("/HTML ASS/images/flipkart.jfif") no-repeat 0px 0px scroll;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.landing>.wrapper>h1{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 20px;
+}
+.landing>.wrapper>p{
+    font-size: 20px;
+    color:whitesmoke;
+}

@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Nav a{
+    text-decoration: none;
+    color:white;
+    margin:auto
+}
+Nav a:hover{
+    background-color: rgb(206, 145, 33);
+    color:rgb(212, 66, 98);
+    border: 2px solid black;
+}
+Nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:#ad65e0;
+    text-align: center;
+    height: 30px;
+}
+aside{
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding :50px;
+    text-align: center;
+    background-color: rgba(221, 221, 78, 0.452);
+}
+aside a {
+    text-decoration: none;
+    padding: 20px;
+}
+.main{
+    display: flex;
+}
